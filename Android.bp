@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/lenovo/halo",
         "device/lenovo/sm8475-common",
         "hardware/qcom-caf/sm8450",
         "vendor/qcom/opensource/commonsys-intf/display",
@@ -153,6 +154,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/c2.dolby.client.so",
             ],
             shared_libs: [
+                "dolbycodec_shim",
                 "libbase",
                 "liblog",
                 "libcodec2",
@@ -174,6 +176,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/c2.dolby.client.so",
             ],
             shared_libs: [
+                "dolbycodec_shim",
                 "libbase",
                 "liblog",
                 "libcodec2",
