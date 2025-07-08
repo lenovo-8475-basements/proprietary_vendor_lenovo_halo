@@ -10,6 +10,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/lenovo/halo/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/lenovo/halo/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
+    vendor/lenovo/halo/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
     vendor/lenovo/halo/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/lenovo/halo/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/lenovo/halo/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
@@ -674,6 +676,7 @@ PRODUCT_PACKAGES += \
     libQnnHtpStub \
     libQnnHtpV69Stub \
     libQtiRilLoadable \
+    libadm \
     libaidenoiser \
     libaidenoiserv2 \
     libarcsoft_chi_utils \
@@ -731,6 +734,7 @@ PRODUCT_PACKAGES += \
     liblocationservice \
     liblocationservice_glue \
     liblqe \
+    libmcs \
     libmctfengine_stub \
     libmfGhostDetection \
     libmmcamera_bestats \
@@ -789,6 +793,7 @@ PRODUCT_PACKAGES += \
     libqllengine \
     libqmiextservices \
     libqshcamera \
+    libqtigefar \
     libril-db \
     libril-legacy \
     libril-qc-ltedirectdisc \
@@ -817,6 +822,7 @@ PRODUCT_PACKAGES += \
     qtiPeripheralMgr \
     qtiwakelock \
     se_nq_extn_client \
+    libasphere \
     vendor.lenovo.hardware.ifaa@1.0 \
     vendor.nxp.hardware.nfc@2.0 \
     vendor.qti.gnss-V1-ndk_platform \
