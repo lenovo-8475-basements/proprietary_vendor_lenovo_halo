@@ -171,6 +171,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/camera/portrait/PS_F_N_v3_E.m.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/PS_F_N_v3_E.m.bin \
     vendor/lenovo/halo/proprietary/vendor/etc/display/qdcm_calib_data_NOVA_NT37701A_cmd_mode_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_NOVA_NT37701A_cmd_mode_panel_with_DSC.json \
     vendor/lenovo/halo/proprietary/vendor/etc/display/qdcm_merge_rules_NOVA_NT37701A_cmd_mode_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_merge_rules_NOVA_NT37701A_cmd_mode_panel_with_DSC.json \
+    vendor/lenovo/halo/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/lenovo/halo/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
@@ -180,6 +182,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
+    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
+    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
+    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.dolby.media.dvs-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.dvs-service.rc \
+    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.dolby.vision.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.vision.media.c2@1.0-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.lenovo.hardware.ifaa@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lenovo.hardware.ifaa@1.0-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
@@ -523,6 +529,16 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/imx588.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx588.pb
 
 PRODUCT_PACKAGES += \
+    c2.dolby.avc.dec \
+    c2.dolby.avc.sec.dec \
+    c2.dolby.client \
+    c2.dolby.egl \
+    c2.dolby.hevc.dec \
+    c2.dolby.hevc.sec.dec \
+    c2.dolby.store \
+    libdolbyottcameracontrol \
+    libdolbyvision \
+    vendor.dolby.hardware.dms@2.0 \
     android.hardware.secure_element@1.0-impl \
     camera.device@1.0-impl \
     com.lenovo.eeprom.halo_hi1336_eeprom \
@@ -708,8 +724,15 @@ PRODUCT_PACKAGES += \
     libcamxswprocessalgo \
     libcamxtintlessalgo \
     libchilog \
+    libcodec2_soft_ac4dec \
+    libcodec2_soft_ddpdec \
+    libcodec2_store_dolby \
     libcom.qti.chinodeutils \
+    libdapparamstorage \
     libdataitems \
+    libdeccfg \
+    libdlbdsservice \
+    libdlbpreg \
     libgarden \
     libgarden_haltests_e2e \
     libgdtap \
@@ -823,6 +846,11 @@ PRODUCT_PACKAGES += \
     qtiwakelock \
     se_nq_extn_client \
     libasphere \
+    libdlbvol \
+    libswdap \
+    libswgamedap \
+    vendor.dolby.dvs@1.0 \
+    vendor.dolby.hardware.dms@2.0-impl \
     vendor.lenovo.hardware.ifaa@1.0 \
     vendor.nxp.hardware.nfc@2.0 \
     vendor.qti.gnss-V1-ndk_platform \
@@ -937,6 +965,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti.xml \
     dataconnection-saidl.xml \
     qtiradio-saidl.xml \
+    vendor.dolby.hardware.dms.xml \
+    vendor.dolby.media.dvs-service.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.radio.ims.xml \
     vendor.qti.hardware.radio.qtiradioconfig.xml \
@@ -945,8 +975,12 @@ PRODUCT_PACKAGES += \
     garden_app \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.gnss-aidl-service-qti \
+    dolbycodec2 \
+    dvs-hal-service \
     qcrilNrd \
     qfp-daemon \
+    vendor.dolby.hardware.dms@2.0-service \
+    vendor.dolby.media.c2@1.0-service \
     vendor.lenovo.hardware.ifaa@1.0-service \
     vendor.nxp.hardware.nfc@2.0-service \
     vendor.qti.camera.provider@2.7-service_64 \
