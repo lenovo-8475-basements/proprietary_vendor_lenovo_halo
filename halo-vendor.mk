@@ -497,6 +497,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/firmware/dw9781c_halo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dw9781c_halo.bin \
     vendor/lenovo/halo/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
     vendor/lenovo/halo/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
+    vendor/lenovo/halo/proprietary/vendor/firmware/haptic_ram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/haptic_ram.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.halo_qtech_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.halo_qtech_hi1336.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_gc02m1b.bin \
