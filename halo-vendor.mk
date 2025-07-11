@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lenovo/halo
 
 PRODUCT_COPY_FILES += \
+    vendor/lenovo/halo/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/lenovo/halo/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/lenovo/halo/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/lenovo/halo/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
@@ -189,6 +190,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.lenovo.hardware.ifaa@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lenovo.hardware.ifaa@1.0-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
+    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.qti.hardware.vibrator.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.vibrator.service.rc \
+    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.qti.hardware.vibrator_dual@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.vibrator_dual@1.2-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/libnfc-SN220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220.conf \
@@ -679,6 +682,7 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.default \
+    vibrator.default \
     jcos_nq_client \
     libBSTDSLR \
     libBSTPurpleFringeRemove \
@@ -693,6 +697,7 @@ PRODUCT_PACKAGES += \
     libQnnHtpStub \
     libQnnHtpV69Stub \
     libQtiRilLoadable \
+    libaacvibrator \
     libadm \
     libaidenoiser \
     libaidenoiserv2 \
@@ -818,6 +823,7 @@ PRODUCT_PACKAGES += \
     libqmiextservices \
     libqshcamera \
     libqtigefar \
+    libqtivibratoreffect \
     libril-db \
     libril-legacy \
     libril-qc-ltedirectdisc \
@@ -850,6 +856,7 @@ PRODUCT_PACKAGES += \
     libdlbvol \
     libswdap \
     libswgamedap \
+    vendor.aac.hardware.richtap.vibrator-V1-ndk_platform \
     vendor.dolby.dvs@1.0 \
     vendor.dolby.hardware.dms@2.0-impl \
     vendor.lenovo.hardware.ifaa@1.0 \
@@ -864,6 +871,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.ims-V7-ndk_platform \
     vendor.qti.hardware.radio.qtiradio-V8-ndk_platform \
     vendor.qti.hardware.radio.qtiradioconfig-V2-ndk_platform \
+    vendor.qti.hardware.vibrator.impl \
+    vendor.qti.hardware.vibrator_dual.device@1.0 \
     bm2n00 \
     bm2n01 \
     bm2n02 \
@@ -971,6 +980,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.radio.ims.xml \
     vendor.qti.hardware.radio.qtiradioconfig.xml \
+    vendor.qti.hardware.vibrator.service.xml \
     ATFWD-daemon \
     ccid_daemon_nr \
     garden_app \
@@ -985,6 +995,8 @@ PRODUCT_PACKAGES += \
     vendor.lenovo.hardware.ifaa@1.0-service \
     vendor.nxp.hardware.nfc@2.0-service \
     vendor.qti.camera.provider@2.7-service_64 \
+    vendor.qti.hardware.vibrator.service \
+    vendor.qti.hardware.vibrator_dual@1.2-service \
     vendor.qti.secure_element@1.2-service \
     loc_launcher \
     lowi-server \
