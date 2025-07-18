@@ -870,14 +870,6 @@ PRODUCT_PACKAGES += \
     libpandora.pal.platform.generic.products \
     libpandora.render \
     libpandora \
-    libqc2audio_hooks \
-    libqc2audio_hwaudiocodec \
-    libqcodec2_base \
-    libqcodec2_basecodec \
-    libqcodec2_core \
-    libqcodec2_platform \
-    libqcodec2_utils \
-    libqcodec2_v4l2codec \
     libqcrilDataModule \
     libqcrilNr \
     libqcrilNrCellInfoModule \
