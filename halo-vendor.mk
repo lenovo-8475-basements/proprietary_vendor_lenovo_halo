@@ -893,17 +893,8 @@ PRODUCT_PACKAGES += \
     libpandora.pal.platform.generic.products \
     libpandora.render \
     libpandora \
-    libqc2audio_base \
-    libqc2audio_basecodec \
-    libqc2audio_core \
     libqc2audio_hooks \
     libqc2audio_hwaudiocodec \
-    libqc2audio_platform \
-    libqc2audio_swaudiocodec \
-    libqc2audio_utils \
-    libqc2colorconvertfilter \
-    libqc2filter \
-    libqc2vppfilter \
     libqcodec2_base \
     libqcodec2_basecodec \
     libqcodec2_core \
