@@ -564,6 +564,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
     vendor/lenovo/halo/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/lenovo/halo/proprietary/vendor/firmware/haptic_ram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/haptic_ram.bin \
+    vendor/lenovo/halo/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
+    vendor/lenovo/halo/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
+    vendor/lenovo/halo/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
+    vendor/lenovo/halo/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.halo_qtech_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.halo_qtech_hi1336.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_gc02m1b.bin \
@@ -603,8 +607,26 @@ PRODUCT_PACKAGES += \
     c2.dolby.hevc.dec \
     c2.dolby.hevc.sec.dec \
     c2.dolby.store \
+    eglSubDriverAndroid \
+    libEGL_adreno \
+    libGLESv1_CM_adreno \
+    libGLESv2_adreno \
+    libVkLayer_ADRENO_qprofiler \
+    libq3dtools_adreno \
+    libq3dtools_esx \
+    libCB \
+    libOpenCL \
+    libadreno_app_profiles \
+    libadreno_utils \
     libdolbyottcameracontrol \
     libdolbyvision \
+    libgpudataproducer \
+    libgsl \
+    libkcl \
+    libkernelmanager \
+    libllvm-glnext \
+    libllvm-qcom \
+    libllvm-qgl \
     vendor.dolby.hardware.dms@2.0 \
     android.hardware.secure_element@1.0-impl \
     camera.device@1.0-impl \
@@ -746,6 +768,7 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.default \
     vibrator.default \
+    vulkan.adreno \
     jcos_nq_client \
     libBSTDSLR \
     libBSTPurpleFringeRemove \
@@ -1081,4 +1104,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
-    system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so
+    system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
+    vendor_lib_libEGL_adreno_so \
+    vendor_lib_libGLESv2_adreno_so \
+    vendor_lib_libq3dtools_adreno_so \
+    vendor_lib64_libEGL_adreno_so \
+    vendor_lib64_libGLESv2_adreno_so \
+    vendor_lib64_libq3dtools_adreno_so
