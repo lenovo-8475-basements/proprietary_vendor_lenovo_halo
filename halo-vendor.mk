@@ -555,6 +555,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
     vendor/lenovo/halo/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/lenovo/halo/proprietary/vendor/firmware/haptic_ram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/haptic_ram.bin \
+    vendor/lenovo/halo/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
+    vendor/lenovo/halo/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.halo_qtech_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.halo_qtech_hi1336.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_gc02m1b.bin \
@@ -766,6 +768,8 @@ PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libaw_portrait_mask \
     libbatching \
+    libbitmlengine \
+    libbitmlenginev2 \
     libc++_shared \
     libcamera_nn_stub \
     libcamerapostproc \
@@ -799,6 +803,8 @@ PRODUCT_PACKAGES += \
     libgeofencing \
     libgnss \
     libgnsspps \
+    libhdr10plus \
+    libhdr_stub \
     libhdrdynamic \
     libhdrdynamicootf \
     libipebpsstriping \
