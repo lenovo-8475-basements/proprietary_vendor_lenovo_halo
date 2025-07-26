@@ -915,7 +915,6 @@ PRODUCT_PACKAGES += \
     qtiPeripheralMgr \
     qtiwakelock \
     se_nq_extn_client \
-    libasphere \
     libdlbvol \
     libswdap \
     libswgamedap \
