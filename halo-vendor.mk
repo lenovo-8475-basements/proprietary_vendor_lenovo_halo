@@ -1037,6 +1037,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.gnss@2.1-service-qti.xml \
+    c2_manifest_vendor_audio.xml \
     dataconnection-saidl.xml \
     qtiradio-saidl.xml \
     vendor.dolby.hardware.dms.xml \
