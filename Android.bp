@@ -7930,6 +7930,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libdlbdsservice.so",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "libutils",
                 "libstagefright_foundation",
                 "liblog",
@@ -7963,6 +7964,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libdlbpreg.so",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11683,6 +11685,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libdlbvol.so",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11715,6 +11718,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libswdap.so",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -11749,6 +11753,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libswgamedap.so",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -13562,6 +13567,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/dvs-hal-service",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "vendor.dolby.dvs@1.0",
                 "libhidlbase",
                 "liblog",
