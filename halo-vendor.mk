@@ -557,6 +557,36 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/firmware/haptic_ram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/haptic_ram.bin \
     vendor/lenovo/halo/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/lenovo/halo/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.sensormodule.halo_qtech_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.halo_qtech_hi1336.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.sensormodule.qtech_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.qtech_gc02m1b.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.sensormodule.qti_tpg0.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.qti_tpg0.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.sensormodule.qti_tpg1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.qti_tpg1.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.sensormodule.qti_tpg2.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.qti_tpg2.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.sensormodule.sunny_ov50a40.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.sunny_ov50a40.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.fillmore_default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.fillmore_default.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.fillmore_qtech_imx766.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.fillmore_qtech_imx766.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.fillmore_sunny_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.fillmore_sunny_imx686.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.fillmore_sunny_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.fillmore_sunny_s5k3m5.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.fillmore_sunny_s5kjd1sp.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.fillmore_sunny_s5kjd1sp.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.fillmore_truly_s5kjd1sp.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.fillmore_truly_s5kjd1sp.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.halo_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.halo_gc02m1b.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.halo_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.halo_hi1336.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.halo_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.halo_ov16a1q.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.halo_ov50a40.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.halo_ov50a40.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.qtech_imx766.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.qtech_imx766.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.semco_imx363.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.semco_imx363.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.sunny_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_imx686.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.sunny_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_s5k3m5.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.sunny_s5kjd1sp.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_s5kjd1sp.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.truly_imx563.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.truly_imx563.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/com.qti.tuned.truly_s5kjd1sp.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.truly_s5kjd1sp.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
+    vendor/lenovo/halo/proprietary/vendor/lib/camera/imx588.pb:$(TARGET_COPY_OUT_VENDOR)/lib/camera/imx588.pb \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.halo_ofilm_ov16a1q.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.halo_qtech_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.halo_qtech_hi1336.bin \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_gc02m1b.bin \
@@ -596,11 +626,6 @@ PRODUCT_PACKAGES += \
     c2.dolby.hevc.dec \
     c2.dolby.hevc.sec.dec \
     c2.dolby.store \
-    libdolbyottcameracontrol \
-    libdolbyvision \
-    vendor.dolby.hardware.dms@2.0 \
-    android.hardware.secure_element@1.0-impl \
-    camera.device@1.0-impl \
     com.lenovo.eeprom.halo_hi1336_eeprom \
     com.lenovo.eeprom.halo_ov16a1q_eeprom \
     com.lenovo.eeprom.ov50a40_eeprom \
@@ -609,9 +634,6 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.halo_hi1336 \
     com.qti.sensor.halo_ov16a1q \
     com.qti.sensor.halo_ov50a40 \
-    com.arcsoft.node.capturebokeh \
-    com.arcsoft.node.realtimebokeh \
-    com.arcsoft.node.supernightraw \
     com.bots.node.vendortagwrite \
     com.qti.camx.chiiqutils \
     com.qti.eisv2 \
@@ -635,7 +657,6 @@ PRODUCT_PACKAGES += \
     com.qti.node.gyrornn \
     com.qti.node.hdr10pgen \
     com.qti.node.hdr10phist \
-    com.qti.node.lenovo \
     com.qti.node.memcpy \
     com.qti.node.ml \
     com.qti.node.mlinference \
@@ -676,6 +697,15 @@ PRODUCT_PACKAGES += \
     com.qtistatic.stats.af \
     com.qtistatic.stats.awb \
     com.qtistatic.stats.pdlib \
+    libdolbyottcameracontrol \
+    libdolbyvision \
+    vendor.dolby.hardware.dms@2.0 \
+    android.hardware.secure_element@1.0-impl \
+    camera.device@1.0-impl \
+    com.arcsoft.node.capturebokeh \
+    com.arcsoft.node.realtimebokeh \
+    com.arcsoft.node.supernightraw \
+    com.qti.node.lenovo \
     libdepthmapwrapper_secure \
     camx.device@3.2-impl \
     camx.device@3.3-impl \
