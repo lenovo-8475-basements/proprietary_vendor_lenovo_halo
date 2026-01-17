@@ -613,6 +613,93 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "android.hardware.vibrator@1.0",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.vibrator@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.vibrator@1.1",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.vibrator@1.1.so",
+            ],
+            shared_libs: [
+                "android.hardware.vibrator@1.0",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.vibrator@1.2",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.vibrator@1.2.so",
+            ],
+            shared_libs: [
+                "android.hardware.vibrator@1.0",
+                "android.hardware.vibrator@1.1",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "camera.device@1.0-impl",
     owner: "lenovo",
     strip: {
@@ -12273,7 +12360,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
-    name: "bm2n00",
+    name: "vendor_lib_rfsa_adsp_bm2n00_bin",
     filename: "bm2n00.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n00.bin",
@@ -12282,7 +12369,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n01",
+    name: "vendor_lib_rfsa_adsp_bm2n01_bin",
     filename: "bm2n01.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n01.bin",
@@ -12291,7 +12378,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n02",
+    name: "vendor_lib_rfsa_adsp_bm2n02_bin",
     filename: "bm2n02.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n02.bin",
@@ -12300,7 +12387,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n03",
+    name: "vendor_lib_rfsa_adsp_bm2n03_bin",
     filename: "bm2n03.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n03.bin",
@@ -12309,7 +12396,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n04",
+    name: "vendor_lib_rfsa_adsp_bm2n04_bin",
     filename: "bm2n04.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n04.bin",
@@ -12318,7 +12405,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n05",
+    name: "vendor_lib_rfsa_adsp_bm2n05_bin",
     filename: "bm2n05.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n05.bin",
@@ -12327,7 +12414,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n06",
+    name: "vendor_lib_rfsa_adsp_bm2n06_bin",
     filename: "bm2n06.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n06.bin",
@@ -12336,7 +12423,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n07",
+    name: "vendor_lib_rfsa_adsp_bm2n07_bin",
     filename: "bm2n07.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n07.bin",
@@ -12345,7 +12432,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n08",
+    name: "vendor_lib_rfsa_adsp_bm2n08_bin",
     filename: "bm2n08.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n08.bin",
@@ -12354,7 +12441,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n09",
+    name: "vendor_lib_rfsa_adsp_bm2n09_bin",
     filename: "bm2n09.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n09.bin",
@@ -12363,7 +12450,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n10",
+    name: "vendor_lib_rfsa_adsp_bm2n10_bin",
     filename: "bm2n10.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n10.bin",
@@ -12372,7 +12459,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n11",
+    name: "vendor_lib_rfsa_adsp_bm2n11_bin",
     filename: "bm2n11.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n11.bin",
@@ -12381,7 +12468,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n12",
+    name: "vendor_lib_rfsa_adsp_bm2n12_bin",
     filename: "bm2n12.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n12.bin",
@@ -12390,7 +12477,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n13",
+    name: "vendor_lib_rfsa_adsp_bm2n13_bin",
     filename: "bm2n13.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n13.bin",
@@ -12399,7 +12486,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n14",
+    name: "vendor_lib_rfsa_adsp_bm2n14_bin",
     filename: "bm2n14.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n14.bin",
@@ -12408,7 +12495,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n15",
+    name: "vendor_lib_rfsa_adsp_bm2n15_bin",
     filename: "bm2n15.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n15.bin",
@@ -12417,7 +12504,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n16",
+    name: "vendor_lib_rfsa_adsp_bm2n16_bin",
     filename: "bm2n16.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n16.bin",
@@ -12426,7 +12513,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n17",
+    name: "vendor_lib_rfsa_adsp_bm2n17_bin",
     filename: "bm2n17.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n17.bin",
@@ -12435,7 +12522,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n18",
+    name: "vendor_lib_rfsa_adsp_bm2n18_bin",
     filename: "bm2n18.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n18.bin",
@@ -12444,7 +12531,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n19",
+    name: "vendor_lib_rfsa_adsp_bm2n19_bin",
     filename: "bm2n19.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n19.bin",
@@ -12453,7 +12540,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n20",
+    name: "vendor_lib_rfsa_adsp_bm2n20_bin",
     filename: "bm2n20.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n20.bin",
@@ -12462,7 +12549,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n21",
+    name: "vendor_lib_rfsa_adsp_bm2n21_bin",
     filename: "bm2n21.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n21.bin",
@@ -12471,7 +12558,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n22",
+    name: "vendor_lib_rfsa_adsp_bm2n22_bin",
     filename: "bm2n22.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n22.bin",
@@ -12480,7 +12567,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n23",
+    name: "vendor_lib_rfsa_adsp_bm2n23_bin",
     filename: "bm2n23.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n23.bin",
@@ -12489,7 +12576,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n24",
+    name: "vendor_lib_rfsa_adsp_bm2n24_bin",
     filename: "bm2n24.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n24.bin",
@@ -12498,7 +12585,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n25",
+    name: "vendor_lib_rfsa_adsp_bm2n25_bin",
     filename: "bm2n25.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n25.bin",
@@ -12507,7 +12594,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n26",
+    name: "vendor_lib_rfsa_adsp_bm2n26_bin",
     filename: "bm2n26.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n26.bin",
@@ -12516,7 +12603,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n27",
+    name: "vendor_lib_rfsa_adsp_bm2n27_bin",
     filename: "bm2n27.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n27.bin",
@@ -12525,7 +12612,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n31",
+    name: "vendor_lib_rfsa_adsp_bm2n31_bin",
     filename: "bm2n31.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n31.bin",
@@ -12534,7 +12621,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n32",
+    name: "vendor_lib_rfsa_adsp_bm2n32_bin",
     filename: "bm2n32.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n32.bin",
@@ -12543,7 +12630,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n33",
+    name: "vendor_lib_rfsa_adsp_bm2n33_bin",
     filename: "bm2n33.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n33.bin",
@@ -12552,7 +12639,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n34",
+    name: "vendor_lib_rfsa_adsp_bm2n34_bin",
     filename: "bm2n34.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n34.bin",
@@ -12561,7 +12648,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n35",
+    name: "vendor_lib_rfsa_adsp_bm2n35_bin",
     filename: "bm2n35.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n35.bin",
@@ -12570,7 +12657,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n36",
+    name: "vendor_lib_rfsa_adsp_bm2n36_bin",
     filename: "bm2n36.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n36.bin",
@@ -12579,7 +12666,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n37",
+    name: "vendor_lib_rfsa_adsp_bm2n37_bin",
     filename: "bm2n37.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n37.bin",
@@ -12588,7 +12675,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n38",
+    name: "vendor_lib_rfsa_adsp_bm2n38_bin",
     filename: "bm2n38.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n38.bin",
@@ -12597,7 +12684,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n39",
+    name: "vendor_lib_rfsa_adsp_bm2n39_bin",
     filename: "bm2n39.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n39.bin",
@@ -12606,7 +12693,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n40",
+    name: "vendor_lib_rfsa_adsp_bm2n40_bin",
     filename: "bm2n40.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n40.bin",
@@ -12615,7 +12702,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n41",
+    name: "vendor_lib_rfsa_adsp_bm2n41_bin",
     filename: "bm2n41.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n41.bin",
@@ -12624,7 +12711,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n42",
+    name: "vendor_lib_rfsa_adsp_bm2n42_bin",
     filename: "bm2n42.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n42.bin",
@@ -12633,7 +12720,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n43",
+    name: "vendor_lib_rfsa_adsp_bm2n43_bin",
     filename: "bm2n43.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n43.bin",
@@ -12642,7 +12729,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n44",
+    name: "vendor_lib_rfsa_adsp_bm2n44_bin",
     filename: "bm2n44.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n44.bin",
@@ -12651,7 +12738,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n45",
+    name: "vendor_lib_rfsa_adsp_bm2n45_bin",
     filename: "bm2n45.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n45.bin",
@@ -12660,7 +12747,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n46",
+    name: "vendor_lib_rfsa_adsp_bm2n46_bin",
     filename: "bm2n46.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n46.bin",
@@ -12669,7 +12756,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n47",
+    name: "vendor_lib_rfsa_adsp_bm2n47_bin",
     filename: "bm2n47.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n47.bin",
@@ -12678,7 +12765,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n48",
+    name: "vendor_lib_rfsa_adsp_bm2n48_bin",
     filename: "bm2n48.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n48.bin",
@@ -12687,7 +12774,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n49",
+    name: "vendor_lib_rfsa_adsp_bm2n49_bin",
     filename: "bm2n49.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n49.bin",
@@ -12696,7 +12783,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n50",
+    name: "vendor_lib_rfsa_adsp_bm2n50_bin",
     filename: "bm2n50.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n50.bin",
@@ -12705,7 +12792,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n51",
+    name: "vendor_lib_rfsa_adsp_bm2n51_bin",
     filename: "bm2n51.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n51.bin",
@@ -12714,7 +12801,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n52",
+    name: "vendor_lib_rfsa_adsp_bm2n52_bin",
     filename: "bm2n52.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n52.bin",
@@ -12723,7 +12810,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n53",
+    name: "vendor_lib_rfsa_adsp_bm2n53_bin",
     filename: "bm2n53.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n53.bin",
@@ -12732,7 +12819,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n54",
+    name: "vendor_lib_rfsa_adsp_bm2n54_bin",
     filename: "bm2n54.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n54.bin",
@@ -12741,7 +12828,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm2n55",
+    name: "vendor_lib_rfsa_adsp_bm2n55_bin",
     filename: "bm2n55.bin",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/bm2n55.bin",
@@ -12750,7 +12837,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libDspIOProxy_skel",
+    name: "vendor_lib_rfsa_adsp_libDspIOProxy_skel_so",
     filename: "libDspIOProxy_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libDspIOProxy_skel.so",
@@ -12759,7 +12846,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQ6MSFR_manager_skel",
+    name: "vendor_lib_rfsa_adsp_libQ6MSFR_manager_skel_so",
     filename: "libQ6MSFR_manager_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so",
@@ -12768,7 +12855,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQnnHtpAltPrepV69Skel",
+    name: "vendor_lib_rfsa_adsp_libQnnHtpAltPrepV69Skel_so",
     filename: "libQnnHtpAltPrepV69Skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpAltPrepV69Skel.so",
@@ -12777,7 +12864,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQnnHtpV69Skel",
+    name: "vendor_lib_rfsa_adsp_libQnnHtpV69Skel_so",
     filename: "libQnnHtpV69Skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpV69Skel.so",
@@ -12786,7 +12873,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libVppFrcQnnHtp",
+    name: "vendor_lib_rfsa_adsp_libVppFrcQnnHtp",
     filename: "libVppFrcQnnHtp",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libVppFrcQnnHtp",
@@ -12795,7 +12882,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libVppQnnHtp",
+    name: "vendor_lib_rfsa_adsp_libVppQnnHtp",
     filename: "libVppQnnHtp",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libVppQnnHtp",
@@ -12804,7 +12891,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libadsp_jpege_skel",
+    name: "vendor_lib_rfsa_adsp_libadsp_jpege_skel_so",
     filename: "libadsp_jpege_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so",
@@ -12813,7 +12900,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libapn_dsp_skel",
+    name: "vendor_lib_rfsa_adsp_libapn_dsp_skel_so",
     filename: "libapn_dsp_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libapn_dsp_skel.so",
@@ -12822,7 +12909,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libbitml_nsp_skel",
+    name: "vendor_lib_rfsa_adsp_libbitml_nsp_skel_so",
     filename: "libbitml_nsp_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so",
@@ -12831,7 +12918,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libbitml_nsp_v2_skel",
+    name: "vendor_lib_rfsa_adsp_libbitml_nsp_v2_skel_so",
     filename: "libbitml_nsp_v2_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_v2_skel.so",
@@ -12840,7 +12927,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libcamera_nn_skel",
+    name: "vendor_lib_rfsa_adsp_libcamera_nn_skel_so",
     filename: "libcamera_nn_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so",
@@ -12849,7 +12936,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libcvpdsp_2_1",
+    name: "vendor_lib_rfsa_adsp_libcvpdsp_2_1_so",
     filename: "libcvpdsp_2_1.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libcvpdsp_2_1.so",
@@ -12858,7 +12945,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdspCV_skel",
+    name: "vendor_lib_rfsa_adsp_libdspCV_skel_so",
     filename: "libdspCV_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so",
@@ -12867,7 +12954,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdsp_streamer_binning",
+    name: "vendor_lib_rfsa_adsp_libdsp_streamer_binning_so",
     filename: "libdsp_streamer_binning.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
@@ -12876,7 +12963,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdsp_streamer_qvrcam_receiver",
+    name: "vendor_lib_rfsa_adsp_libdsp_streamer_qvrcam_receiver_so",
     filename: "libdsp_streamer_qvrcam_receiver.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so",
@@ -12885,7 +12972,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libevadsp_3_0",
+    name: "vendor_lib_rfsa_adsp_libevadsp_3_0_so",
     filename: "libevadsp_3_0.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libevadsp_3_0.so",
@@ -12894,7 +12981,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libeye_tracking_dsp_sample_skel",
+    name: "vendor_lib_rfsa_adsp_libeye_tracking_dsp_sample_skel_so",
     filename: "libeye_tracking_dsp_sample_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so",
@@ -12903,7 +12990,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvadsp",
+    name: "vendor_lib_rfsa_adsp_libfastcvadsp_so",
     filename: "libfastcvadsp.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so",
@@ -12912,7 +12999,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libfastcvdsp_skel",
+    name: "vendor_lib_rfsa_adsp_libfastcvdsp_skel_so",
     filename: "libfastcvdsp_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so",
@@ -12921,7 +13008,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhalide_hexagon_remote_skel",
+    name: "vendor_lib_rfsa_adsp_libhalide_hexagon_remote_skel_so",
     filename: "libhalide_hexagon_remote_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libhalide_hexagon_remote_skel.so",
@@ -12930,7 +13017,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhdr_skel",
+    name: "vendor_lib_rfsa_adsp_libhdr_skel_so",
     filename: "libhdr_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libhdr_skel.so",
@@ -12939,7 +13026,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libmctfengine_skel",
+    name: "vendor_lib_rfsa_adsp_libmctfengine_skel_so",
     filename: "libmctfengine_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libmctfengine_skel.so",
@@ -12948,7 +13035,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libmobilenet_dsp_frc",
+    name: "vendor_lib_rfsa_adsp_libmobilenet_dsp_frc",
     filename: "libmobilenet_dsp_frc",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libmobilenet_dsp_frc",
@@ -12957,7 +13044,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libmobilenet_dsp_frc_networks",
+    name: "vendor_lib_rfsa_adsp_libmobilenet_dsp_frc_networks",
     filename: "libmobilenet_dsp_frc_networks",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks",
@@ -12966,7 +13053,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libneat_1_1_skel",
+    name: "vendor_lib_rfsa_adsp_libneat_1_1_skel_so",
     filename: "libneat_1_1_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libneat_1_1_skel.so",
@@ -12975,7 +13062,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libqvr_cam_dsp_driver_skel",
+    name: "vendor_lib_rfsa_adsp_libqvr_cam_dsp_driver_skel_so",
     filename: "libqvr_cam_dsp_driver_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so",
@@ -12984,7 +13071,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libqvr_dsp_driver_skel",
+    name: "vendor_lib_rfsa_adsp_libqvr_dsp_driver_skel_so",
     filename: "libqvr_dsp_driver_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so",
@@ -12993,7 +13080,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libscveT2T_skel",
+    name: "vendor_lib_rfsa_adsp_libscveT2T_skel_so",
     filename: "libscveT2T_skel.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so",
@@ -13002,7 +13089,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libtracker_6dof_skel_8250",
+    name: "vendor_lib_rfsa_adsp_libtracker_6dof_skel_8250_so",
     filename: "libtracker_6dof_skel_8250.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libtracker_6dof_skel_8250.so",
@@ -13011,7 +13098,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libtracker_6dof_skel_8350",
+    name: "vendor_lib_rfsa_adsp_libtracker_6dof_skel_8350_so",
     filename: "libtracker_6dof_skel_8350.so",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libtracker_6dof_skel_8350.so",
@@ -13020,7 +13107,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libvpp_ais_networks",
+    name: "vendor_lib_rfsa_adsp_libvpp_ais_networks",
     filename: "libvpp_ais_networks",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libvpp_ais_networks",
@@ -13029,7 +13116,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libvpp_vqa_networks",
+    name: "vendor_lib_rfsa_adsp_libvpp_vqa_networks",
     filename: "libvpp_vqa_networks",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libvpp_vqa_networks",
@@ -13038,7 +13125,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libvpt_action_recognition",
+    name: "vendor_lib_rfsa_adsp_libvpt_action_recognition",
     filename: "libvpt_action_recognition",
     owner: "lenovo",
     src: "proprietary/vendor/lib/rfsa/adsp/libvpt_action_recognition",
