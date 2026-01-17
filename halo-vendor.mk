@@ -964,7 +964,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.qtiradio-V8-ndk_platform \
     vendor.qti.hardware.radio.qtiradioconfig-V2-ndk_platform \
     vendor.qti.hardware.vibrator.impl \
-    vendor.qti.hardware.vibrator_dual.device@1.0 \
     bm2n00 \
     bm2n01 \
     bm2n02 \
