@@ -430,4164 +430,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.lenovo.eeprom.halo_hi1336_eeprom",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.lenovo.eeprom.halo_hi1336_eeprom.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.lenovo.eeprom.halo_hi1336_eeprom.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.lenovo.eeprom.halo_ov16a1q_eeprom",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.lenovo.eeprom.halo_ov16a1q_eeprom.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.lenovo.eeprom.halo_ov16a1q_eeprom.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.lenovo.eeprom.ov50a40_eeprom",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.lenovo.eeprom.ov50a40_eeprom.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.lenovo.eeprom.ov50a40_eeprom.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.ois.dw9781c_halo",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.ois.dw9781c_halo.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.qti.ois.dw9781c_halo.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.sensor.halo_gc02m1b",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.halo_gc02m1b.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.qti.sensor.halo_gc02m1b.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.sensor.halo_hi1336",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.halo_hi1336.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.qti.sensor.halo_hi1336.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.sensor.halo_ov16a1q",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.halo_ov16a1q.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.qti.sensor.halo_ov16a1q.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.sensor.halo_ov50a40",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.halo_ov50a40.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.qti.sensor.halo_ov50a40.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.bots.node.vendortagwrite",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.bots.node.vendortagwrite.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.bots.node.vendortagwrite.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.camx.chiiqutils",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.eisv2",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.eisv2.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.eisv2.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.eisv3",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.eisv3.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.eisv3.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.hvx.addconstant",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so",
-            ],
-            shared_libs: [
-                "libchilog",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so",
-            ],
-            shared_libs: [
-                "libchilog",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.hvx.binning",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so",
-            ],
-            shared_libs: [
-                "libchilog",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so",
-            ],
-            shared_libs: [
-                "libchilog",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.afbfusion",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.afbfusion.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcamera_metadata",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.afbfusion.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcamera_metadata",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.aon",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.aon.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "com.qti.qseeaon",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.aon.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "com.qti.qseeaon",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.customhwnode",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.customhwnode.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcom.qti.chinodeutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.customhwnode.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcom.qti.chinodeutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.depth",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.depth.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.depth.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.dewarp",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.dewarp.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libui",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.dewarp.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libui",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.dummydepth",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.dummydepth.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libeva",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.dummydepth.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libeva",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.dummyrtb",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.dummyrtb.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.dummysat",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.dummysat.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.eisv2",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.eisv2.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.eisv3",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.eisv3.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.fcv",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.fcv.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libsync",
-                "liblog",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libsync",
-                "liblog",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.formatconversion",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.formatconversion.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libc++",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.formatconversion.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "libc++",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.gme",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.gme.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.gme.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.gpu",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.gpu.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.gyrornn",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.gyrornn.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.gyrornn.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.hdr10pgen",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.hdr10pgen.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libhdr10plus",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.hdr10pgen.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libhdr10plus",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.hdr10phist",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.hdr10phist.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libhdr10plus",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.hdr10phist.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libhdr10plus",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.memcpy",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.memcpy.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.ml",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.ml.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libcamxswispiqmodule",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.ml.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libcamxswispiqmodule",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.mlinference",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.mlinference.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.mlinference.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libcamximageformatutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libz",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.muxer",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.muxer.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libc++",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.muxer.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libc++",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.remosaic",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.remosaic.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.remosaic.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.stich",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.stich.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.stich.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swaidenoiser",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swaidenoiser.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swaidenoiser.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swbestats",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swbestats.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swbestats.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swcac",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swcac.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swcac.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swec",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swec.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swec.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swfusion",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swfusion.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swfusion.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swhme",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swhme.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libcamxsettingsmanager",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swhme.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libcamxsettingsmanager",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swlsc",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swlsc.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swlsc.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swmctf",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swmctf.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swmctf.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swmfnr",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swmfnr.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libmmcamera_mfnr",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swmfnr.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libmmcamera_mfnr",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swpdpc",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swpdpc.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swpdpc.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common@1.1",
-                "libcamera_metadata",
-                "libcamximageformatutils",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libcamxswispiqmodule",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swpreprocess",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swpreprocess.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swpreprocess.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.node.swregistration",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.node.swregistration.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libchilog",
-                "libcom.qti.chinodeutils",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.aec",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.aec.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.aecwrapper",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.aecwrapper.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.aecxcore",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.aecxcore.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libopencv3a",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.aecxcore.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libopencv3a",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.af",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.af.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.af.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.afd",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.afd.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.afwrapper",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.afwrapper.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.afwrapper.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.asd",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.asd.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.awb",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.awb.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.awbwrapper",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.awbwrapper.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.cnndriver",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.cnndriver.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libbitmlenginev2",
-                "libm",
-                "libc",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.cnndriver.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "android.hardware.graphics.common@1.1",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libcamera_metadata",
-                "libcamxcommonutils",
-                "libcamxsettingsmanager",
-                "libqti_vndfwk_detect",
-                "libutils",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libgralloc.qti",
-                "libgralloctypes",
-                "vendor.qti.hardware.display.allocator@4.0",
-                "vendor.qti.hardware.display.mapper@4.0",
-                "vendor.qti.hardware.display.mapperextensions@1.1",
-                "libcdsprpc",
-                "libbitmlenginev2",
-                "libm",
-                "libc",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.haf",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.haf.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.haf.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.hafoverride",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.hafoverride.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.localhistogram",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.localhistogram.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.localhistogram.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.pdlib",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.pdlib.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.pdlibsony",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.pdlibwrapper",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.statsgenerator",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.statsgenerator.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.statsgenerator.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.stats.tracker",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libfastcvopt",
-                "libscveObjectTracker",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libfastcvopt",
-                "libscveObjectTracker",
-                "com.qti.stats.common",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qtistatic.stats.aec",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qtistatic.stats.aec.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qtistatic.stats.af",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qtistatic.stats.af.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qtistatic.stats.awb",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qtistatic.stats.awb.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qtistatic.stats.pdlib",
-    owner: "lenovo",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/components/com.qtistatic.stats.pdlib.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so",
-            ],
-            shared_libs: [
-                "libcamxcommonutils",
-                "libchilog",
-                "libcutils",
-                "liblog",
-                "libsync",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "camera/components",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libdolbyottcameracontrol",
     owner: "lenovo",
     strip: {
@@ -4813,6 +655,358 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "com.lenovo.eeprom.halo_hi1336_eeprom",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.lenovo.eeprom.halo_hi1336_eeprom.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.lenovo.eeprom.halo_ov16a1q_eeprom",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.lenovo.eeprom.halo_ov16a1q_eeprom.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.lenovo.eeprom.ov50a40_eeprom",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.lenovo.eeprom.ov50a40_eeprom.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.ois.dw9781c_halo",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.ois.dw9781c_halo.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.sensor.halo_gc02m1b",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.sensor.halo_gc02m1b.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.sensor.halo_hi1336",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.sensor.halo_hi1336.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.sensor.halo_ov16a1q",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.sensor.halo_ov16a1q.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.sensor.halo_ov50a40",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.sensor.halo_ov50a40.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.arcsoft.node.capturebokeh",
     owner: "lenovo",
     strip: {
@@ -4907,6 +1101,888 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "com.bots.node.vendortagwrite",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.bots.node.vendortagwrite.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.camx.chiiqutils",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libcamximageformatutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.eisv2",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.eisv2.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.eisv3",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.eisv3.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.hvx.addconstant",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so",
+            ],
+            shared_libs: [
+                "libchilog",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.hvx.binning",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so",
+            ],
+            shared_libs: [
+                "libchilog",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.afbfusion",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.afbfusion.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.aon",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.aon.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "com.qti.qseeaon",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.customhwnode",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.customhwnode.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcom.qti.chinodeutils",
+                "libchilog",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.depth",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.depth.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.dewarp",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.dewarp.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcamximageformatutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libui",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.dummydepth",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.dummydepth.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "libeva",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.dummyrtb",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.dummysat",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.eisv2",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libcamximageformatutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.eisv3",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libcamximageformatutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.fcv",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "libsync",
+                "liblog",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.formatconversion",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.formatconversion.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "libc++",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.gme",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.gme.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libcamximageformatutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.gpu",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.gyrornn",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.gyrornn.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libcamximageformatutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.hdr10pgen",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.hdr10pgen.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libcamximageformatutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libhdr10plus",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.hdr10phist",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.hdr10phist.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libhdr10plus",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.qti.node.lenovo",
     owner: "lenovo",
     strip: {
@@ -4925,6 +2001,1348 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libcom.qti.chinodeutils",
                 "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.memcpy",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.ml",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.ml.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libcamximageformatutils",
+                "libcamxswispiqmodule",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.mlinference",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.mlinference.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libcamximageformatutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libz",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.muxer",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.muxer.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libc++",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.remosaic",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.remosaic.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.stich",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.stich.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swaidenoiser",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swaidenoiser.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.common@1.1",
+                "libcamera_metadata",
+                "libcamximageformatutils",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcamxswispiqmodule",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swbestats",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swbestats.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.common@1.1",
+                "libcamera_metadata",
+                "libcamximageformatutils",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcamxswispiqmodule",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swcac",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swcac.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swec",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swec.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.common@1.1",
+                "libcamera_metadata",
+                "libcamximageformatutils",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcamxswispiqmodule",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swfusion",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swfusion.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.common@1.1",
+                "libcamera_metadata",
+                "libcamximageformatutils",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcamxswispiqmodule",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swhme",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swhme.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.common@1.1",
+                "libcamera_metadata",
+                "libcamximageformatutils",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcamxswispiqmodule",
+                "libcamxsettingsmanager",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swlsc",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swlsc.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.common@1.1",
+                "libcamera_metadata",
+                "libcamximageformatutils",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcamxswispiqmodule",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swmctf",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swmctf.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.common@1.1",
+                "libcamera_metadata",
+                "libcamximageformatutils",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcamxswispiqmodule",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swmfnr",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swmfnr.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.common@1.1",
+                "libcamera_metadata",
+                "libcamximageformatutils",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libmmcamera_mfnr",
+                "libcamxswispiqmodule",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swpdpc",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swpdpc.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.common@1.1",
+                "libcamera_metadata",
+                "libcamximageformatutils",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libcamxswispiqmodule",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swpreprocess",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swpreprocess.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.node.swregistration",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.aec",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "com.qti.stats.common",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.aecwrapper",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.aecxcore",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.aecxcore.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libopencv3a",
+                "com.qti.stats.common",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.af",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.af.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "com.qti.stats.common",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.afd",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.afwrapper",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.afwrapper.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.asd",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.awb",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "com.qti.stats.common",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.awbwrapper",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.cnndriver",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.cnndriver.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "android.hardware.graphics.common@1.1",
+                "libhardware",
+                "libhidlbase",
+                "libhidltransport",
+                "libcamera_metadata",
+                "libcamxcommonutils",
+                "libcamxsettingsmanager",
+                "libqti_vndfwk_detect",
+                "libutils",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libgralloc.qti",
+                "libgralloctypes",
+                "vendor.qti.hardware.display.allocator@4.0",
+                "vendor.qti.hardware.display.mapper@4.0",
+                "vendor.qti.hardware.display.mapperextensions@1.1",
+                "libcdsprpc",
+                "libbitmlenginev2",
+                "libm",
+                "libc",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.haf",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.haf.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "com.qti.stats.common",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.hafoverride",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.localhistogram",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.localhistogram.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.pdlib",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.pdlibsony",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.pdlibwrapper",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.statsgenerator",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.statsgenerator.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.stats.tracker",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libfastcvopt",
+                "libscveObjectTracker",
+                "com.qti.stats.common",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qtistatic.stats.aec",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libchilog",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qtistatic.stats.af",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libchilog",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qtistatic.stats.awb",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libchilog",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera/components",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qtistatic.stats.pdlib",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so",
+            ],
+            shared_libs: [
+                "libcamxcommonutils",
+                "libchilog",
+                "libcutils",
+                "liblog",
+                "libsync",
+                "libz",
                 "libc++",
                 "libc",
                 "libm",
