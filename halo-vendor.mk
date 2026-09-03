@@ -170,10 +170,19 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/camera/portrait/AW_Portrait_Mask_License.data:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/AW_Portrait_Mask_License.data \
     vendor/lenovo/halo/proprietary/vendor/etc/camera/portrait/PS_F_N_v3_E.m.awcache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/PS_F_N_v3_E.m.awcache \
     vendor/lenovo/halo/proprietary/vendor/etc/camera/portrait/PS_F_N_v3_E.m.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/portrait/PS_F_N_v3_E.m.bin \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/DPU660.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU660.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/DPU670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU670.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/DPU720.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU720.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/DPU7__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU7__.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/DPU820.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU820.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/DPU830.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU830.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/DPU860.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU860.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/DPU8__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU8__.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/display/qdcm_calib_data_NOVA_NT37701A_cmd_mode_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_NOVA_NT37701A_cmd_mode_panel_with_DSC.json \
     vendor/lenovo/halo/proprietary/vendor/etc/display/qdcm_merge_rules_NOVA_NT37701A_cmd_mode_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_merge_rules_NOVA_NT37701A_cmd_mode_panel_with_DSC.json \
-    vendor/lenovo/halo/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
-    vendor/lenovo/halo/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
+    vendor/lenovo/halo/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
@@ -183,15 +192,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
-    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
-    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
-    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.dolby.media.dvs-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.dvs-service.rc \
-    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.dolby.vision.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.vision.media.c2@1.0-service.rc \
+    vendor/lenovo/halo/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
+    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.lenovo.hardware.ifaa@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lenovo.hardware.ifaa@1.0-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
-    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.qti.hardware.vibrator.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.vibrator.service.rc \
-    vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.qti.hardware.vibrator_dual@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.vibrator_dual@1.2-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/lenovo/halo/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/libnfc-SN220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220.conf \
@@ -289,6 +294,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/etc/sensors/config/waipio_stk3a5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_stk3a5x_0.json \
     vendor/lenovo/halo/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/lenovo/halo/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/lenovo/halo/proprietary/vendor/etc/thermal-engine_battery_0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine_battery_0.conf \
@@ -589,20 +595,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/halo/proprietary/vendor/lib64/camera/imx588.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx588.pb
 
 PRODUCT_PACKAGES += \
-    c2.dolby.avc.dec \
-    c2.dolby.avc.sec.dec \
-    c2.dolby.client \
-    c2.dolby.egl \
-    c2.dolby.hevc.dec \
-    c2.dolby.hevc.sec.dec \
-    c2.dolby.store \
-    libdolbyottcameracontrol \
-    libdolbyvision \
-    vendor.dolby.hardware.dms@2.0 \
     android.hardware.secure_element@1.0-impl \
-    android.hardware.vibrator@1.0 \
-    android.hardware.vibrator@1.1 \
-    android.hardware.vibrator@1.2 \
     camera.device@1.0-impl \
     com.lenovo.eeprom.halo_hi1336_eeprom \
     com.lenovo.eeprom.halo_ov16a1q_eeprom \
@@ -741,7 +734,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.default \
-    vibrator.default \
     jcos_nq_client \
     libBSTDSLR \
     libBSTPurpleFringeRemove \
@@ -756,7 +748,6 @@ PRODUCT_PACKAGES += \
     libQnnHtpStub \
     libQnnHtpV69Stub \
     libQtiRilLoadable \
-    libaacvibrator \
     libadm \
     libaidenoiser \
     libaidenoiserv2 \
@@ -770,6 +761,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_superportrait \
     libaudio_log_utils \
     libaw_portrait_mask \
+    libbacklight-calib \
     libbatching \
     libbitmlengine \
     libbitmlenginev2 \
@@ -791,15 +783,14 @@ PRODUCT_PACKAGES += \
     libcamxswprocessalgo \
     libcamxtintlessalgo \
     libchilog \
-    libcodec2_soft_ac4dec \
-    libcodec2_soft_ddpdec \
-    libcodec2_store_dolby \
     libcom.qti.chinodeutils \
-    libdapparamstorage \
     libdataitems \
-    libdeccfg \
-    libdlbdsservice \
-    libdlbpreg \
+    libdigital-dimming \
+    libdisp-aba \
+    libdisplayqos \
+    libdisplayskuutils \
+    libdpps \
+    libgame_enhance \
     libgarden \
     libgarden_haltests_e2e \
     libgdtap \
@@ -807,7 +798,9 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libhdr10plus \
+    libhdr_backlight_adapter \
     libhdr_stub \
+    libhdr_tm \
     libhdrdynamic \
     libhdrdynamicootf \
     libipebpsstriping \
@@ -828,7 +821,9 @@ PRODUCT_PACKAGES += \
     liblqe \
     libmcs \
     libmctfengine_stub \
+    libmemutils \
     libmfGhostDetection \
+    libmm-hdcpmgr \
     libmmcamera_bestats \
     libmmcamera_cac3 \
     libmmcamera_lscv35 \
@@ -879,32 +874,45 @@ PRODUCT_PACKAGES += \
     libqcrilNrSmsModule \
     libqcrilNrSocketModule \
     libqcrilNrVoiceModule \
+    libqdcm-algo \
+    libqdcm-json-mode-parser \
+    libqdcm-mode-parser \
     libqfp-service \
     libqll \
     libqll10 \
     libqllengine \
     libqmiextservices \
+    libqrtrclient \
+    libqseed3 \
     libqshcamera \
     libqtigefar \
-    libqtivibratoreffect \
+    librcmask \
     libril-db \
     libril-legacy \
     libril-qc-ltedirectdisc \
     libril-qc-radioconfig \
     librilqmimiscservices \
     libsdedrm \
+    libsdm-color \
+    libsdm-colormgr-algo \
+    libsdm-disp-vndapis \
     libsdmcore \
+    libsdmextension \
     libsdmutils \
     libsfeShiftExtrapolation \
     libslimclient \
     libsn100u_fw \
     libsn220u_fw \
+    libsnapdragoncolor-manager \
+    libsnapdragoncolor-qdcm \
     libswregistrationalgo \
     libsynergy_loc_api \
     libsynx \
     libtensorflowlite \
+    libtestutils \
     libtfestriping \
     libthreadutils \
+    libtinyxml2_1 \
     libubifocus \
     libxtadapter \
     ls_nq_client \
@@ -918,12 +926,15 @@ PRODUCT_PACKAGES += \
     qtiPeripheralMgr \
     qtiwakelock \
     se_nq_extn_client \
-    libdlbvol \
-    libswdap \
-    libswgamedap \
-    vendor.aac.hardware.richtap.vibrator-V1-ndk_platform \
-    vendor.dolby.dvs@1.0 \
-    vendor.dolby.hardware.dms@2.0-impl \
+    vendor.display.color@1.0 \
+    vendor.display.color@1.1 \
+    vendor.display.color@1.2 \
+    vendor.display.color@1.3 \
+    vendor.display.color@1.4 \
+    vendor.display.color@1.5 \
+    vendor.display.color@1.6 \
+    vendor.display.color@1.7 \
+    vendor.display.postproc@1.0 \
     vendor.lenovo.hardware.ifaa@1.0 \
     vendor.nxp.hardware.nfc@2.0 \
     vendor.qti.gnss-V1-ndk_platform \
@@ -933,10 +944,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.iwlan@1.0 \
     vendor.qti.hardware.data.iwlan@1.1 \
     vendor.qti.hardware.fingerprint@1.0 \
+    vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.radio.ims-V7-ndk_platform \
     vendor.qti.hardware.radio.qtiradio-V8-ndk_platform \
     vendor.qti.hardware.radio.qtiradioconfig-V2-ndk_platform \
-    vendor.qti.hardware.vibrator.impl \
     vendor_lib_rfsa_adsp_bm2n00_bin \
     vendor_lib_rfsa_adsp_bm2n01_bin \
     vendor_lib_rfsa_adsp_bm2n02_bin \
@@ -1042,33 +1053,27 @@ PRODUCT_PACKAGES += \
     c2_manifest_vendor_audio.xml \
     dataconnection-saidl.xml \
     qtiradio-saidl.xml \
-    vendor.dolby.hardware.dms.xml \
-    vendor.dolby.media.dvs-service.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.radio.ims.xml \
     vendor.qti.hardware.radio.qtiradioconfig.xml \
-    vendor.qti.hardware.vibrator.service.xml \
     ATFWD-daemon \
     ccid_daemon_nr \
     garden_app \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.gnss-aidl-service-qti \
-    dolbycodec2 \
-    dvs-hal-service \
     qcrilNrd \
     qfp-daemon \
-    vendor.dolby.hardware.dms@2.0-service \
-    vendor.dolby.media.c2@1.0-service \
+    vendor.display.color@1.0-service \
     vendor.lenovo.hardware.ifaa@1.0-service \
     vendor.nxp.hardware.nfc@2.0-service \
     vendor.qti.camera.provider@2.7-service_64 \
     vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.vibrator.service \
-    vendor.qti.hardware.vibrator_dual@1.2-service \
     vendor.qti.secure_element@1.2-service \
     loc_launcher \
     lowi-server \
     mlid \
+    ppd \
+    qdcmss \
     qtigetprop \
     qtisetprop \
     slim_daemon \
